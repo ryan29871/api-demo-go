@@ -24,7 +24,7 @@ $ go test ./...
 # bench tests - cd into directory of benchmark test
 $ cd src
 $ cd user
-$ npm run test:e2e
+$ go test --bench .
 
 # test coverage
 $ cd src
