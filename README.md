@@ -14,7 +14,7 @@ $ cd src
 $ go rum main.go
 ```
 
-Run unit and end-to-end tests:
+Run unit tests:
 
 ```bash
 # unit tests
@@ -29,4 +29,11 @@ $ npm run test:e2e
 # test coverage
 $ cd src
 $ go test ./... -cover
+```
+
+Test endpoints:
+
+```
+http://localhost:11111
+http://localhost:11111/users
 ```
