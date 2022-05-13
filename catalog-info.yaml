@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: GO API Demo
+  name: api-demo-go
   description: API GO Demo
   labels:
     example.com/custom: custom_label_value
